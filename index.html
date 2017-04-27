@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>测试曲线bug</title>
+  <link rel="stylesheet" href="./css/jqueryui.css" />
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/json.js"></script>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/jqueryui.js"></script>
+  <script src="./js/lodash.js"></script>
+  <script src="./js/echarts.js"></script>
+  <script src="./js/echartsTheme.js"></script>
+  </head>
+<body>
+  测试
+  <div id="tabCharts">
+     <ul class="tab-ul">
+       <li id="tabChartLiSum" class="tab-li"><a class="tab-a" href="#sumLineChartWrp">汇总</a></li>
+       <li id="tabChartLiTotal" class="tab-li"><a class="tab-a" href="#totalLineChart">双向速率</a></li>
+       <li id="tabChartLiUp" class="tab-li"><a class="tab-a" href="#upLineChart">上行速率</a></li>
+       <li id="tabChartLiDn" class="tab-li"><a class="tab-a" href="#dnLineChart">下行速率</a></li>
+     </ul>
+    <div id="sumLineChartWrp" class="linechart-wrp">
+      <div class="linechart-inner">
+        <div id="sumLineChart" class="linechart"></div>
+      </div>
+    </div>
+    <div id="totalLineChartWrp" class="linechart-wrp"><div class="linechart-inner"><div id="totalLineChart" class="linechart"></div></div></div>
+    <div id="upLineChartWrp" class="linechart-wrp"><div class="linechart-inner"><div id="upLineChart" class="linechart"></div></div></div>
+    <div id="dnLineChartWrp" class="linechart-wrp"><div class="linechart-inner"><div id="dnLineChart" class="linechart"></div></div></div>
+
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
